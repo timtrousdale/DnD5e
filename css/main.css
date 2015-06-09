@@ -1,10 +1,71 @@
 @font-face {
   font-family: p22Vincent;
-  src: url(../fonts/P22-Vincent-Regular.otf); }
+  src: url(../fonts/P22-Vincent-Regular.otf);
+}
+body {
+  background-color: #0f0f0f;
+}
 h1.title {
   font: 4em p22Vincent;
   background: #000 url(../Images/Cave.jpg) no-repeat right;
   margin: 0 0 0 0;
-  color: #C2FFFF; }
+  color: #C2FFFF;
+}
+.barScene {
+  background-image: url(../Images/thePageThing.gif);
+  background-repeat: no-repeat;
+}
+.choiceText {
+  position: absolute;
+  text-align: center;
+  font: 100px p22Vincent;
+  color: #C2FFFF;
+
+}
+.mainImage {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  background-color: #000000;
+  z-index: -3;
+
+}
+.barbar, .bard, .cleric, .druid, .fighter, .monk, .paladin, .ranger, .rogue, .sorcerer, .warlock, .wizard {
+  position: absolute;
+  float: left;
+  z-index: 1;
+}
+.characterFloaters {
+  visibility: hidden;
+
+}
+.charImage {
+  float: left;
+  z-index: 2;
+  padding-left: 100px;
+}
+.bard .charImage {
+  padding-top: 100px;
+}
+.sorcerer .charImage {
+  padding-top: 50px;
+}
+
+.charText{
+  float: left;
+  padding-top: 200px;
+  padding-left: 50px;
+  color: #C2FFFF;
+  z-index: 2;
+
+}
+.mainImage2 {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  z-index: -11;
+
+}
 
 /*# sourceMappingURL=main.css.map */
