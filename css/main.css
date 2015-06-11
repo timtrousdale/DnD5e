@@ -9,7 +9,7 @@ h1.title {
   font: 4em p22Vincent;
   background: #000 url(../Images/Cave.jpg) no-repeat right;
   margin: 0 0 0 0;
-  color: #C2FFFF;
+  color: #fffdf4;
 }
 .barScene {
   background-image: url(../Images/thePageThing.gif);
@@ -19,7 +19,7 @@ h1.title {
   position: absolute;
   text-align: center;
   font: 100px p22Vincent;
-  color: #C2FFFF;
+  color: #fffdf4;
 
 }
 .mainImage {
@@ -30,11 +30,13 @@ h1.title {
   z-index: -3;
 
 }
-.barbar, .bard, .cleric, .druid, .fighter, .monk, .paladin, .ranger, .rogue, .sorcerer, .warlock, .wizard {
+.floaterChar {
   position: absolute;
   float: left;
   z-index: 1;
+
 }
+
 .characterFloaters {
   visibility: hidden;
 
@@ -44,20 +46,13 @@ h1.title {
   z-index: 2;
   padding-left: 100px;
 }
-.bard .charImage {
-  padding-top: 100px;
-}
-.sorcerer .charImage {
-  padding-top: 50px;
-}
 
 .charText{
   float: left;
   padding-top: 200px;
   padding-left: 50px;
-  color: #C2FFFF;
+  color: #fffdf4;
   z-index: 2;
-
 }
 .mainImage2 {
   position: absolute;
@@ -65,7 +60,12 @@ h1.title {
   margin-right: auto;
   width: auto;
   z-index: -11;
-
 }
+
+
+.btn {
+  color: black;
+}
+
 
 /*# sourceMappingURL=main.css.map */
